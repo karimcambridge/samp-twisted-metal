@@ -1,0 +1,21 @@
+# Executables
+*.exe
+
+# Music files
+*.wav
+audio/
+audiopacks/
+
+# SA-MP Files
+*.amx
+*.inc
+*.txt
+*.bat
+*.zip
+
+# SA-MP Folders
+filterscripts/
+pawno/
+scriptfiles/
+server_log.txt
+mysql_log.txt
