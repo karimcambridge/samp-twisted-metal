@@ -49,14 +49,6 @@ CREATE TABLE `p_accounts` (
   `pFavourite_Map` int(11) NOT NULL DEFAULT '-1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Dumping data for table `p_accounts`
---
-
-INSERT INTO `p_accounts` (`Username`, `Account_ID`, `Password`, `pIPv4`, `pRegistered_Date`, `pTime_Played`, `pLastVisit`, `pAdminLevel`, `pMoney`, `pKills`, `pDeaths`, `pKillAssists`, `pKillStreaks`, `pExprience`, `pLast_Exp_Gained`, `pLevel`, `pTier_Points`, `pTravelled_Distance`, `pFavourite_Vehicle`, `pFavourite_Map`) VALUES
-('Kar', 1, '919311FBBD99E9BFC8D0376C13F47684264543625160BB8E7CCF72F46F8708CD8079D4918CB3C86D8C3CC490ED17362A6CD66BFC4269C8D4A4E43D1902EC1CFF', '192.168.1.10', '24:03:2013', 77, 1462388047, 0, 0, 73, 30, 35, 32, 32971, 0, 33, 3, 0, 0, -1),
-('Lorenc', 2, '9174B713645DB7B453C1621B4B29892DFE0C97E28AADA833B1BA6E3B65B3B24DC067F4F0EEBE299F5E3B82B63502AA4D7AB07B3D4BC54F46AC3440E4849F4286', '58.178.145.212', '29:03:2013', 0, 1364598885, 0, 0, 14, 12, 10, 4, 510, 0, 1, 0, 0, 0, -1);
-
 -- --------------------------------------------------------
 
 --
